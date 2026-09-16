@@ -89,7 +89,8 @@ notebooks directly.
 > clicking Install. If you miss it, typing `python` will open the Microsoft Store instead
 > of Python. Use `py` rather than `python` at the command line.
 >
-> **macOS:** the command is `python3`, not `python`.
+> **macOS:** the command is `python3`, not `python` — macOS has shipped no bare `python`
+> since 2022. Inside an activated conda or virtual environment both names work.
 
 **Option B — nothing to install.** Open the notebooks in
 [Google Colab](https://colab.research.google.com/): *File → Open notebook → GitHub*, then
