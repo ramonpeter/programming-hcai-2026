@@ -78,28 +78,68 @@ Each session is 4 hours, organised in two blocks of theory → worked example �
 
 ## Getting set up
 
-You need Python 3.10 or newer and an editor. Any of the following works:
+You need Python 3.10 or newer and an editor. Any of these works.
 
-**Option A — the simple one.** Install [Anaconda](https://www.anaconda.com/download).
-It bundles Python, Jupyter and the scientific libraries in one installer.
+**Option A — recommended.** Install [Python](https://www.python.org/downloads/) and
+[VS Code](https://code.visualstudio.com/), then add the Microsoft *Python* and *Jupyter*
+extensions from the Extensions panel. Small download, nothing to license, and it opens
+notebooks directly.
 
-**Option B — the lightweight one.** Install [Python](https://www.python.org/downloads/)
-and [VS Code](https://code.visualstudio.com/), then add the Microsoft *Python* and
-*Jupyter* extensions.
+> **Windows:** on the installer's first screen, tick **Add python.exe to PATH** before
+> clicking Install. If you miss it, typing `python` will open the Microsoft Store instead
+> of Python. Use `py` rather than `python` at the command line.
+>
+> **macOS:** the command is `python3`, not `python`.
 
-**Option C — nothing to install.** Open the notebooks directly in
-[Google Colab](https://colab.research.google.com/) — paste the notebook URL from this
-repository into *File → Open notebook → GitHub*.
+**Option B — nothing to install.** Open the notebooks in
+[Google Colab](https://colab.research.google.com/): *File → Open notebook → GitHub*, then
+paste a notebook URL from this repository. Needs a Google account and a connection.
 
-Check your installation:
+**Option C — conda, the light way.** [Miniforge](https://github.com/conda-forge/miniforge)
+is conda preconfigured to use the community conda-forge channel:
 
 ```bash
-python --version      # or: python3 --version
+conda create -n prog python=3.12 jupyter
+conda activate prog
+```
+
+**Option D — Anaconda or Miniconda.** If you already use one, or your other courses expect
+it, both work fine for everything we do.
+
+- [Anaconda](https://www.anaconda.com/download) bundles Python, Jupyter and the scientific
+  libraries in one installer, with a graphical launcher. It is a large download (several GB).
+- [Miniconda](https://www.anaconda.com/download/success) is the same conda without the
+  bundle. Install Jupyter yourself afterwards: `conda install jupyter`.
+
+Both are free for university course use, but Anaconda's terms of service ask academic users
+to register through their Academic Program. If that is a nuisance, use Option C instead —
+it is the same tool pointed at a different package source.
+
+> **Windows:** open **Anaconda Prompt** from the Start menu rather than cmd or PowerShell.
+> `conda` is not on PATH by default, so it will not be found in an ordinary terminal.
+
+### Check it worked
+
+In a terminal:
+
+```bash
+python --version          # or: python3 --version   (macOS)  ·  py --version   (Windows)
 python -c "print('ready')"
 ```
 
-Download this repository either with the green **Code → Download ZIP** button, or — if you
-already use git:
+Or, from inside a notebook or editor:
+
+```python
+import sys
+print(sys.version)
+```
+
+Anything from 3.10 upwards is fine. If it fights you, come and find me — ten minutes after
+a lecture solves almost all of it.
+
+### Getting the material
+
+Use the green **Code → Download ZIP** button, or — if you already use git:
 
 ```bash
 git clone https://github.com/<user>/<repo>.git
@@ -131,6 +171,7 @@ An Interdisciplinary Approach*, Addison-Wesley.
 - [The Python Tutorial](https://docs.python.org/3/tutorial/) — the official one, well written
 - [Python Tutor](https://pythontutor.com/) — visualises code execution step by step, excellent for loops and recursion
 - [Real Python](https://realpython.com/) — readable articles on single topics
+- [Spyder](https://docs.spyder-ide.org/) — an IDE whose *Variable Explorer* shows the name, type and value of everything currently defined. Ships with Anaconda. Useful for seeing what assignment actually does
 
 ---
 
