@@ -1,0 +1,23 @@
+# Slide sources (Keynote): large binaries, kept out of the repo.
+# Only the exported PDFs are published.
+*.key
+*.pptx
+
+# Instructor-only material (teaching plan, exam drafts, notes)
+_private/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
