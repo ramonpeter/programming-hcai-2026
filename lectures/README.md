@@ -8,7 +8,7 @@ Slides and demo notebooks, published after each lecture.
 
 | Session | Slides | Notebook |
 |---|---|---|
-| 01 — Foundations | _tba_ | _tba_ |
+| 01 — Foundations | [`01-foundations-slides.pdf`](01-foundations-slides.pdf) | [`01-foundations-demo.ipynb`](01-foundations-demo.ipynb) |
 | 02 — Data and expressions | _tba_ | _tba_ |
 | 03 — Input/output and conditionals | _tba_ | _tba_ |
 | 04 — Iteration | _tba_ | _tba_ |
