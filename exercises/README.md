@@ -9,7 +9,7 @@ discussed them in class.
 
 | Session | Topic | Sheet | Solutions |
 |---|---|---|---|
-| 01 | Algorithms and first program | [`exercise_01.pdf`](exercise_01.pdf) | [`solution_01.pdf`](solution_01.pdf)  |
+| 01 | Algorithms and first program | [`exercise_01.pdf`](exercise_01.pdf) | [`solutions_01.pdf`](solutions_01.pdf)  |
 | 02 | Data types and expressions | _tba_ | _tba_ |
 | 03 | Input/output and conditionals | _tba_ | _tba_ |
 | 04 | Loops | _tba_ | _tba_ |
