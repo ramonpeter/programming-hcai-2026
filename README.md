@@ -10,7 +10,7 @@
 | **Language** | English |
 | **Period** | First semester |
 | **Instructor** | [Ramon Winterhalder](https://www.rpwinterhalder.com) |
-| **Official page** | [unimi.it course page](https://www.unimi.it/en/education/degree-programme-courses/2027/programming-0) |
+| **Official page** | [myAriel](https://myariel.unimi.it/course/view.php?id=14170) · [unimi.it course page](https://www.unimi.it/en/education/degree-programme-courses/2027/programming-0) |
 
 ---
 
