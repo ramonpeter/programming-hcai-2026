@@ -9,8 +9,8 @@ discussed them in class.
 
 | Session | Topic | Sheet | Solutions |
 |---|---|---|---|
-| 01 | Algorithms and first program | [`exercise_01.pdf`](exercise_01.pdf) | [`solutions_01.pdf`](solutions_01.pdf)  |
-| 02 | Data types and expressions | _tba_ | _tba_ |
+| 01 | Algorithms and first program | [`01_exercise.pdf`](01_exercise.pdf) | [`01_solutions.pdf`](01_solutions.pdf)  |
+| 02 | Data types and expressions | [`02_exercise.pdf`](02_exercise.pdf) | [`02_solutions.pdf`](02_solutions.pdf)  |
 | 03 | Input/output and conditionals | _tba_ | _tba_ |
 | 04 | Loops | _tba_ | _tba_ |
 | 05 | Strings | _tba_ | _tba_ |
