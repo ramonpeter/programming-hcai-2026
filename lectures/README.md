@@ -10,7 +10,7 @@ Slides and demo notebooks, published after each lecture.
 |---|---|---|
 | 01 — Foundations | [`01-foundations-slides.pdf`](01-foundations-slides.pdf) | [`01-foundations-demo.ipynb`](01-foundations-demo.ipynb) |
 | 02 — Data and expressions | [`02-data-slides.pdf`](02-data-slides.pdf) | [`02-data-demo.ipynb`](02-data-demo.ipynb) |
-| 03 — Input/output and conditionals | _tba_ | _tba_ |
+| 03 — Input/output and conditionals | [`03-decision-slides.pdf`](03-decision-slides.pdf) | [`03-decision-demo.ipynb`](03-decision-demo.ipynb) |
 | 04 — Iteration | _tba_ | _tba_ |
 | 05 — Strings | _tba_ | _tba_ |
 | 06 — Lists | _tba_ | _tba_ |
