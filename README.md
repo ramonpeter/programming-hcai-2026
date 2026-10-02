@@ -32,8 +32,8 @@ Slides, notebooks, exercise sheets and solutions are published in **this reposit
 
 | Item | Published |
 |---|---|
-| Slides + demo notebook | right after the lecture |
-| Exercise sheet | at the end of the lecture |
+| Slides + demo notebook | right before the lecture |
+| Exercise sheet | right before the lecture |
 | Solutions | after we have discussed them in class |
 
 ---
@@ -152,9 +152,12 @@ git pull            # run this before each lecture to get the new material
 
 ## Assessment
 
-Written exam. It tests both the understanding of programming concepts and the ability to
-apply them. The evaluation considers correctness, understanding of the concepts, clarity of
-the algorithmic reasoning, and the ability to write readable, working Python code.
+Written exam, closed book, **graded out of 30** (*voto in trentesimi*). 
+Note that this differs from the Programming Lab, which is assessed pass/fail.
+
+The exam tests both the understanding of programming concepts and the ability to apply
+them. The evaluation considers correctness, understanding of the concepts, clarity of the
+algorithmic reasoning, and the ability to write readable, working Python code.
 
 The exam has the same shape as the mock exam in session 12: true/false statements,
 multiple choice questions on short code fragments, and two open questions in which you
