@@ -11,9 +11,9 @@ discussed them in class.
 |---|---|---|---|
 | 01 | Algorithms and first program | [`01_exercise.pdf`](01_exercise.pdf) | [`01_solutions.pdf`](01_solutions.pdf)  |
 | 02 | Data types and expressions | [`02_exercise.pdf`](02_exercise.pdf) | [`02_solutions.pdf`](02_solutions.pdf)  |
-| 03 | Input/output and conditionals | [`03_exercise.pdf`](03_exercise.pdf) | _tba_ |
-| 04 | Loops | _tba_ | _tba_ |
-| 05 | Strings | _tba_ | _tba_ |
+| 03 | Input/output and conditionals | [`03_exercise.pdf`](03_exercise.pdf) | [`03_solutions.pdf`](03_solutions.pdf)  |
+| 04 | Loops | [`04_exercise.pdf`](04_exercise.pdf) | [`04_solutions.pdf`](04_solutions.pdf)  |
+| 05 | Strings | [`05_exercise.pdf`](05_exercise.pdf) | _tba_ |
 | 06 | Lists | _tba_ | _tba_ |
 | 07 | Dictionaries, tuples, sets | _tba_ | _tba_ |
 | 08 | Functions | _tba_ | _tba_ |
